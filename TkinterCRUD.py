@@ -197,7 +197,8 @@ hasil = tk.Label(
 )
 hasil.pack(fill="x", padx=25, pady=15)
 
-
+# Menjalankan aplikasi
+root.mainloop()
 
 
 
