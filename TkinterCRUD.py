@@ -185,6 +185,20 @@ btn_submit.pack(pady=10)
 btn_submit.bind("<Enter>", on_enter)
 btn_submit.bind("<Leave>", on_leave)
 
+# Label hasil prediksi
+hasil = tk.Label(
+    root,
+    text="Hasil Prediksi: -",
+    font=("Arial", 13, "bold"),
+    bg="#dceeff",
+    fg="#17365d",
+    padx=20,
+    pady=15
+)
+hasil.pack(fill="x", padx=25, pady=15)
+
+
+
 
 
 
