@@ -156,4 +156,15 @@ tk.Label(
 entry_fis = tk.Entry(form, width=30, font=("Arial", 11))
 entry_fis.grid(row=2, column=1, padx=10, pady=8)
 
+# Input nilai Bahasa Inggris
+tk.Label(
+    form,
+    text="Nilai Bahasa Inggris",
+    font=("Arial", 11, "bold"),
+    bg="#f0f4f8"
+).grid(row=3, column=0, sticky="w", pady=8)
+
+entry_ing = tk.Entry(form, width=30, font=("Arial", 11))
+entry_ing.grid(row=3, column=1, padx=10, pady=8)
+
 
