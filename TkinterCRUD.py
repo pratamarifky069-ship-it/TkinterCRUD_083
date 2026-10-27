@@ -167,4 +167,29 @@ tk.Label(
 entry_ing = tk.Entry(form, width=30, font=("Arial", 11))
 entry_ing.grid(row=3, column=1, padx=10, pady=8)
 
+# Tombol submit
+btn_submit = tk.Button(
+    root,
+    text="Submit Nilai",
+    command=submit_nilai,
+    font=("Arial", 12, "bold"),
+    bg="#243f60",
+    fg="white",
+    activebackground="#50fa7b",
+    cursor="hand2",
+    width=20,
+    pady=8
+)
+btn_submit.pack(pady=10)
+
+btn_submit.bind("<Enter>", on_enter)
+btn_submit.bind("<Leave>", on_leave)
+
+
+
+
+
+
+
+
 
