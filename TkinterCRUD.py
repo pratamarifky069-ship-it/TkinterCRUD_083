@@ -88,3 +88,9 @@ def submit_nilai():
     entry_ing.delete(0, tk.END)
 
 
+# Efek ketika kursor berada di tombol
+def on_enter(e):
+    btn_submit["bg"] = "#50fa7b"
+    btn_submit["fg"] = "black"
+
+
