@@ -123,4 +123,15 @@ judul.pack(fill="x")
 form = tk.Frame(root, bg="#f0f4f8")
 form.pack(pady=20)
 
+# Input nama siswa
+tk.Label(
+    form,
+    text="Nama Siswa",
+    font=("Arial", 11, "bold"),
+    bg="#f0f4f8"
+).grid(row=0, column=0, sticky="w", pady=8)
+
+entry_nama = tk.Entry(form, width=30, font=("Arial", 11))
+entry_nama.grid(row=0, column=1, padx=10, pady=8)
+
 
