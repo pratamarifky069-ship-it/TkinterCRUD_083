@@ -108,3 +108,15 @@ root.configure(bg="#f0f4f8")
 root.resizable(False, False)
 
 
+# Header aplikasi
+judul = tk.Label(
+    root,
+    text="Aplikasi Prediksi Fakultas",
+    font=("Arial", 18, "bold"),
+    bg="#243f60",
+    fg="white",
+    pady=20
+)
+judul.pack(fill="x")
+
+
