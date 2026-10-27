@@ -94,3 +94,9 @@ def on_enter(e):
     btn_submit["fg"] = "black"
 
 
+# Efek ketika kursor meninggalkan tombol
+def on_leave(e):
+    btn_submit["bg"] = "#243f60"
+    btn_submit["fg"] = "white"
+
+
