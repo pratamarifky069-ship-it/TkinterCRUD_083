@@ -100,3 +100,11 @@ def on_leave(e):
     btn_submit["fg"] = "white"
 
 
+# Membuat jendela aplikasi
+root = tk.Tk()
+root.title("Prediksi Fakultas")
+root.geometry("500x600")
+root.configure(bg="#f0f4f8")
+root.resizable(False, False)
+
+
