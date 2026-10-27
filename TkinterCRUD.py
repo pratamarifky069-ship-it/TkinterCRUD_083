@@ -145,4 +145,15 @@ tk.Label(
 entry_bio = tk.Entry(form, width=30, font=("Arial", 11))
 entry_bio.grid(row=1, column=1, padx=10, pady=8)
 
+# Input nilai Fisika
+tk.Label(
+    form,
+    text="Nilai Fisika",
+    font=("Arial", 11, "bold"),
+    bg="#f0f4f8"
+).grid(row=2, column=0, sticky="w", pady=8)
+
+entry_fis = tk.Entry(form, width=30, font=("Arial", 11))
+entry_fis.grid(row=2, column=1, padx=10, pady=8)
+
 
